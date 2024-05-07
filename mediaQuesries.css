@@ -1,0 +1,195 @@
+@media screen and (max-width : 1010px) {
+    .nav-bar {
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .login-div {
+        display: none;
+    }
+
+    .bars-div {
+        display: flex;
+        position: fixed;
+        top: 25px;
+        right: 20px;
+        z-index: 222111;
+    }
+
+    .run-heading {
+        font-size: 30px;
+    }
+
+    .neo-para {
+        font-size: 15px;
+    }
+
+
+
+    .years-para {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .header-ch {
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .header-sub-ch {
+        width: 100%;
+    }
+
+    .header-sub-ch2 {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .slider-comp {
+        animation: slider-move 5s infinite linear;
+    }
+
+    .access-main-div {
+        flex-wrap: wrap;
+    }
+
+    .access-ch {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mobile-div {
+        flex-wrap: wrap;
+    }
+
+    .mobile-ch {
+        width: 100%;
+
+    }
+
+    .mobile-ch1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mill-para {
+        font-size: 15px;
+    }
+
+    .slider3-w {
+        width: 320%;
+    }
+
+    .radio1:checked~.slider3-w {
+        margin-left: -115%;
+    }
+
+    .see-para {
+        font-size: 15px;
+    }
+
+    .khatar-ch {
+        width: 100%;
+    }
+
+    .sumbit-div {
+        font-size: 15px;
+    }
+
+    .input-ch1 {
+        flex-wrap: wrap;
+    }
+
+    .input-main-p {
+        width: 80%;
+    }
+
+    .name-input-div {
+        width: 100%;
+    }
+
+    .market-ch {
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+
+    .market-img-div {
+        width: 100%;
+
+        margin-top: 20px;
+    }
+
+    .seam-div {
+        width: 100%;
+
+    }
+
+    .f-ul-main {
+        flex-wrap: wrap;
+    }
+
+    .f-ul {
+        width: 33.33%;
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width : 546px) {
+        .mill-para {
+            font-size: 12px;
+        }
+
+        .slider3-w {
+            width: 710%;
+        }
+
+        .radio1:checked~.slider3-w {
+            margin-left: -122%;
+        }
+    }
+
+    @media screen and (max-width : 500px) {
+        .search-img-div {
+            height: 26px;
+        }
+
+        .blue-scroll {
+            height: 20px;
+        }
+
+        .years-para {
+            font-size: 10px;
+        }
+
+        .mill-para {
+            font-size: 8px;
+        }
+    }
+
+    @media screen and (max-width : 425px) {
+        .f-ul {
+            width: 100%;
+        }
+
+        .last-div {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .design {
+            margin-top: 20px;
+        }
+    }
+
+    @media screen and (max-width : 375px) {
+        .seam-div {
+            font-size: 15px;
+        }
+    }
+}
